@@ -40,3 +40,10 @@ hello_world2 = "'Hello World!'"
 print(hello_world+"\n"+hello_world2)
 print("\"%d")
 #Create a list:
+
+
+
+name = input("What's your name? ")
+print(name)
+
+# Zadanko
