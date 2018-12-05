@@ -1,1 +1,14 @@
 
+a = input ('Podaj dzielną ')
+a = float (a)
+b= input ('Podaj dzielnik ')
+b= float(b)
+while (b==0):
+    b = float(input("Podaj dzielnik "))
+c = (a/b)
+c= float (c)
+c= int (c)
+d = (a%b)
+d= float (d)
+d= int (d)
+print ('Wynik to:', c, 'reszta', d)
