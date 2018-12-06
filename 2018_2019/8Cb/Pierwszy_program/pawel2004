@@ -1,1 +1,13 @@
+print('Program do dzielenia.')
+dzielna = float(input("Wprowadz dzielną: "))
+dzielnik = float(input("Wprowadz dzielnik: "))
+
+while 1:
+    if dzielnik != 0:
+        wynik = dzielna % dzielnik
+        calosc = (dzielna - wynik)/dzielnik
+        print('Wynik to ', calosc, 'calosci i', wynik, 'reszty.')
+        break
+    elif dzielnik == 0:
+        dzielnik = float(input("Wprowadz dzielnik: "))
 
