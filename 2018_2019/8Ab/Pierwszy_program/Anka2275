@@ -1,1 +1,9 @@
-
+a=input ("podaj dzielną")
+a=float(a)
+b=input ("Podaj dzielnik")
+b=float(b)
+while (b==0):
+    b=float(input("podaj dzielnik"))
+c=(a/b)
+c=float (c)
+x=(a/b)
